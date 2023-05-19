@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /> <!-- Set webpage viewport -->
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Animal Quiz</title> <!-- Change Webpage Title -->
+    <link rel="stylesheet" href="app.css" /> <!-- Link CSS File -->
+  </head>
+  <body>  <!-- The body element represents the main content area of the HTML document. -->
+    <div class="container"> <!-- The container div provides a layout container for the content. -->
+      <select id="difficultyDropdown">  <!-- The select element with id "difficultyDropdown" represents a dropdown menu for selecting the difficulty level. -->
+        <option value="easy">Easy</option>   <!-- The option element represents an option in the dropdown menu, with the value "easy" and the label "Easy". -->
+        <option value="medium">Medium</option> <!-- The option element represents an option in the dropdown menu, with the value "medium" and the label "Medium". -->
+        <option value="hard">Hard</option> <!-- The option element represents an option in the dropdown menu, with the value "hard" and the label "Hard". -->
+      </select>
+      <div id="home" class="flex-center flex-column"> <!-- The home div represents the main content of the home page and uses flexbox for centering and column alignment. -->
+        <h1>Animal Quiz</h1> <!-- The h1 element displays the heading "Animal Quiz". -->
+        <a  id="startgame" class="btn" href="./game.html">Play Quiz <!-- The link element with id "startgame" serves as a button for starting the quiz and links to the "game.html" page. -->
+          <div class="rectangle1"><p>1</p></div>
+        </a>
+        <a class="btn" href="./highscores.html">View Scores  <!-- The link element serves as a button for viewing the high scores and links to the "highscores.html" page. -->
+          <div class="rectangle1"><p>2</p></div>
+        </a>
+      </div>
+    </div>
+  </body>
+  <script src="app.js"></script> <!-- Link JavaScript File -->
+</html>
